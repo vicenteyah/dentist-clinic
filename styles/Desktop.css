@@ -1,0 +1,291 @@
+.contact-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-title{
+    background: var(--colorPrimary);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fontBold);
+    color: var(--colorQuinary);
+}
+
+.header-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-family: var(--fontRegular);
+}
+.header-info h1{
+    color: var(--colorSecondary);
+}
+
+.header-contact{
+    display: flex;
+    gap: 15px;;
+}
+
+.contact-items{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontRegular);
+}
+
+.contact-items h3{
+    color:var(--colorTertiary);
+}
+
+
+/** NAvbar HEro**/
+.divider{
+    border-top: 1px solid var(--colorQuinary);
+    width: 100%;
+}
+
+.Navbar-hero{
+    padding: 10px 10px;
+    font-family: var(--fontRegular);
+    font-size: 1.5rem;
+}
+
+.Navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Navbar-items li a{
+    text-decoration: none;
+    color: var(--colorSecondary);
+}
+
+.Navbar-items li a:hover{
+    border-bottom: 5px solid var(--colorSenary);;
+}
+
+/** Dentist- img **/
+
+.dentist-img {
+    margin: auto;
+    width: 100%;
+    height: 700px;
+    background: url('../images/fotoprincipal.jpg');
+    background-size: cover;
+    border-bottom: 8px solid var(--colorSenary);
+}
+
+.dentist-title{
+    padding: 250px 0px;
+    text-align: center;
+    font-family: var(--fontBold);
+    font-size: 2rem;
+    color: var(--colorSenary);
+    text-shadow: 1px 1px 8px rgb(67, 66, 66);
+}
+
+button{
+    background: var(--colorPrimary);
+    color: var(--colorQuinary);
+    border: none;
+    padding: 10px 20px;
+    font-family: var(--fontMedium);
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+/**Section-dent-cli **/
+.section-dent-cli{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.section-dent-cli figure{
+    width: 100%;
+}
+.section-dent-cli figure img{
+    max-width: 350px;
+    height: 100%;
+    object-fit: cover;
+}
+.dent-cli-description h1{
+    color: var(--colorPrimary);
+}
+
+.dent-cli-description{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontRegular);
+    color: var(--colorSecondary);
+}
+
+/** section about **/
+.section-about{
+    background-color: var(--colorPrimary);
+    padding: 50px 0;
+}
+
+.articles-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--colorQuinary);
+    font-family: var(--fontRegular);
+    gap: 20px;
+}
+.articles-list{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+.article-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:15px;
+}
+
+.article-item a{
+    padding: 30px 30px;
+    border: 2px solid var(--colorQuinary);
+    border-radius: 55px;
+    color: var(--colorQuinary);
+}
+
+.article-item p{
+    padding: 0px 40px;
+}
+
+
+/** Services Container **/
+
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+    font-family: var(--fontBold);
+    color: var(--colorPrimary);
+}
+
+.services-articles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.services-articles figure {
+    width: 100%;
+}
+.services-articles figure img{
+    max-width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/** Section Success cases**/
+
+.cases-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontMedium);
+    color: var(--colorPrimary);
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cases-list{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    text-align: center;
+}
+
+.case-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 390px;
+    border: 1px solid var(--colorSecondary);
+    gap: 20px;
+    padding: 20px 50px;
+    color: var(--colorSecondary);
+    position: relative;
+}
+
+.case-article figure{
+    width: 100%;
+}
+
+.case-article figure img{
+    max-width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 120px;
+}
+
+.case-article a{
+    font-family: var(--fontRegular);
+    background-color: var(--colorSenary);
+    font-size: 1.5rem;
+    color: var(--colorSecondary);
+    position: absolute;
+    width: 100px;
+    top: 330px;
+    left: 325px;
+}
+
+/** Section help **/
+.section-help {
+    background-color: var(--colorPrimary);
+    width: 100%;
+}
+.help-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 50px 0;
+    gap: 20px;
+    font-family: var(--fontBold);
+    color: var(--colorQuinary);
+}
+.help-container a{
+    text-align: center;
+    padding: 15px 20px;
+    background-color: var(--colorQuinary);
+    text-decoration: none;
+}
+/** Footer **/
+.footer-container{
+    width: 100%;
+    background-color: var(--colorSecondary);
+}
+
+.personal-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fontRegular);
+    color: var(--colorQuinary);
+    padding: 20px 0;
+}

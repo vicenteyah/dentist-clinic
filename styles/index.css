@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Abel-Regular';
+    src: url('../fonts/Abel-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('../fonts/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url('../fonts/Oswald-Medium.ttf');
+}
+
+:root{
+    /**Fonts **/
+    --fontBold: 'Oswald-Bold';
+    --fontMedium: 'Oswald-Medium';
+    --fontRegular: 'Abel-Regular';
+
+    /** Colors **/
+    --colorPrimary: #049CEE;
+    --colorSecondary: #6D6D6D;
+    --colorTertiary: #FDA06C;
+    --colorQuaternary: #2B2B2B;
+    --colorQuinary: #dfdfdf;
+    --colorSenary: #FC6900;
+
+}
+
+body{
+    font-size: 14px;
+}
+
+
+header,section,footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
