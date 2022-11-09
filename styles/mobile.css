@@ -47,7 +47,8 @@
     }
 
     .cases-container,
-    .section-help{
+    .section-help,
+    .newsletters{
         display: none;
     }
 

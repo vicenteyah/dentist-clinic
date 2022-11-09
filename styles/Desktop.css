@@ -251,6 +251,7 @@ button{
     width: 100px;
     top: 330px;
     left: 325px;
+    text-decoration: none;
 }
 
 /** Section help **/
@@ -288,4 +289,60 @@ button{
     font-family: var(--fontRegular);
     color: var(--colorQuinary);
     padding: 20px 0;
+}
+
+.newsletters{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.newsletters h1{
+    font-size: 1.5em;
+    font-family: var(--fontBold);
+    color: var(--colorPrimary);
+}
+
+.article-newsletters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.article-newsletters figure{
+    max-width: 450px;
+}
+.article-newsletters img{
+    width: 100%;
+    height: auto;
+}
+.article-newsletter .description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5%;
+    height: 210px;
+    width: auto;
+}
+.article-newsletter .description h2{
+    font-size: 1.5em;
+    font-family: var(--fontBold);
+    color: var(--colorPrimary);
+}
+.article-newsletter .description p{
+    font-size: 1rem;
+    font-family: var(--fontRegular);
+    color: var(--colorSecondary);
+}
+
+.article-newsletters figure:hover,
+.article-newsletters img:hover{
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: all .5s;
+    border-radius: 10%;
 }
