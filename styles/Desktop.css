@@ -276,7 +276,7 @@ button{
 /** Footer **/
 .footer-container{
     width: 100%;
-    background-color: var(--colorSecondary);
+    background-color: var(--colorQuaternary);
 }
 
 .personal-data{

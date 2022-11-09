@@ -1,0 +1,54 @@
+@media screen and (max-width:480px){
+    section{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .header-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .non-mobile{
+        display: none;
+    }
+
+    .Navbar-items{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Navbar-items li {
+        width: 100%;
+        border-bottom: 1px solid #c2c2c2;
+        text-align: center;
+    }
+
+    .dentist-img,
+    .section-dent-cli figure
+    { 
+        display: none;
+    }
+
+    .dent-cli-description{
+        justify-content: center;
+        align-items: center;
+        padding: 6%;
+    }
+
+    .articles-list{
+        flex-direction: column;
+    }
+    .article-item p {
+        padding:  6%;
+    }
+
+    .services-articles {
+        flex-direction: column;
+    }
+
+    .cases-container,
+    .section-help{
+        display: none;
+    }
+
+}
